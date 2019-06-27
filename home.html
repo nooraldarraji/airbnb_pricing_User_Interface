@@ -1,83 +1,30 @@
-<div class="container">
-    <div class="control-group">
-        <h1>Checkboxes</h1>
-        <label class="control control--checkbox">First checkbox
-            <input type="checkbox" checked="checked"/>
-            <div class="control__indicator"></div>
-          </label>
-        <label class="control control--checkbox">Second checkbox
-            <input type="checkbox"/>
-            <div class="control__indicator"></div>
-          </label>
-        <label class="control control--checkbox">Disabled
-            <input type="checkbox" disabled="disabled"/>
-            <div class="control__indicator"></div>
-          </label>
-        <label class="control control--checkbox">Disabled & checked
-            <input type="checkbox" disabled="disabled" checked="checked"/>
-            <div class="control__indicator"></div>
-          </label>
-    </div>
-    <div class="control-group">
-        <h1>Radio buttons</h1>
-        <label class="control control--radio">First radio
-            <input type="radio" name="radio" checked="checked"/>
-            <div class="control__indicator"></div>
-          </label>
-        <label class="control control--radio">Second radio
-            <input type="radio" name="radio"/>
-            <div class="control__indicator"></div>
-          </label>
-        <label class="control control--radio">Disabled
-            <input type="radio" name="radio2" disabled="disabled"/>
-            <div class="control__indicator"></div>
-          </label>
-        <label class="control control--radio">Disabled & checked
-            <input type="radio" name="radio2" disabled="disabled" checked="checked"/>
-            <div class="control__indicator"></div>
-          </label>
-    </div>
-    <div class="control-group">
-        <h1>Select boxes</h1>
-        <div class="select">
-            <select>
-              <option>Where is your property located?</option>
-              <option>Option 1</option>
-              <option>Option 2</option>
-              <option>Option 3</option>
-              <option>Option 4</option>
-              <option>Option 5</option>
-              <option>Option 6</option>
-            </select>
-            <div class="select__arrow"></div>
-        </div>
-        <div class="select">
-            <select>
-              <option>What type of property is it?</option>
-              <option>Option 1</option>
-              <option>Option 2</option>
-              <option>Option 3</option>
-              <option>Option 4</option>
-              <option>Option 5</option>
-              <option>Option 6</option>
-            </select>
-            <div class="select__arrow"></div>
-        </div>
-        <div class="select">
-            <select>
-                  <option>Will you be renting your entire property, a private room, or shared room?</option>
-                  <option>Option 1</option>
-                  <option>Option 2</option>
-                  <option>Option 3</option>
-                  <option>Option 4</option>
-                  <option>Option 5</option>
-                  <option>Option 6</option>
-                </select>
-            <div class="select__arrow"></div>
-        </div>
-        <div class="select">
-            <select>
-                      <option>How many people will you accommodate?</option>
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AirBnb Optimal Pricing</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="home-boxes" class="control-group">
+            <h1>Please select your options</h1>
+
+            <div class="select">
+                <p>Where is your property located?</p>
+                <select style="width: 30%">
+                    
                       <option>Option 1</option>
                       <option>Option 2</option>
                       <option>Option 3</option>
@@ -85,11 +32,40 @@
                       <option>Option 5</option>
                       <option>Option 6</option>
                     </select>
-            <div class="select__arrow"></div>
-        </div>
-        <div class="select">
-            <select>
-                          <option>Number of Bathrooms</option>
+                <div class="select__arrow"></div>
+            </div>
+
+
+            <div class="select">
+                <p>What type of property is it?</p>
+                <select style="width: 30%">
+                  
+                  <option>Option 1</option>
+                  <option>Option 2</option>
+                  <option>Option 3</option>
+                  <option>Option 4</option>
+                  <option>Option 5</option>
+                  <option>Option 6</option>
+                </select>
+                <div class="select__arrow"></div>
+            </div>
+            <div class="select">
+                <p>Will you be renting your entire property, a private room, or shared room?</p>
+
+                <select style="width: 30%">
+                      <option>Option 1</option>
+                      <option>Option 2</option>
+                      <option>Option 3</option>
+                      <option>Option 4</option>
+                      <option>Option 5</option>
+                      <option>Option 6</option>
+                    </select>
+                <div class="select__arrow"></div>
+            </div>
+            <div class="select">
+                <p>How many people will you accommodate?</p>
+                <select style="width: 30%">
+                          
                           <option>Option 1</option>
                           <option>Option 2</option>
                           <option>Option 3</option>
@@ -97,11 +73,12 @@
                           <option>Option 5</option>
                           <option>Option 6</option>
                         </select>
-            <div class="select__arrow"></div>
-        </div>
-        <div class="select">
-            <select>
-                              <option>Number of Bedrooms</option>
+                <div class="select__arrow"></div>
+            </div>
+            <div class="select">
+                <p>Number of Bathrooms</p>
+                <select style="width: 30%">
+                        
                               <option>Option 1</option>
                               <option>Option 2</option>
                               <option>Option 3</option>
@@ -109,11 +86,12 @@
                               <option>Option 5</option>
                               <option>Option 6</option>
                             </select>
-            <div class="select__arrow"></div>
-        </div>
-        <div class="select">
-            <select>
-                                  <option>Number of Beds</option>
+                <div class="select__arrow"></div>
+            </div>
+            <div class="select">
+                <p>Number of Bedrooms</p>
+                <select style="width: 30%">
+                                
                                   <option>Option 1</option>
                                   <option>Option 2</option>
                                   <option>Option 3</option>
@@ -121,18 +99,43 @@
                                   <option>Option 5</option>
                                   <option>Option 6</option>
                                 </select>
-            <div class="select__arrow"></div>
+                <div class="select__arrow"></div>
+            </div>
+            <div class="select">
+                <p>Number of Beds</p>
+                <select style="width: 30%">
+                  
+                                      <option>Option 1</option>
+                                      <option>Option 2</option>
+                                      <option>Option 3</option>
+                                      <option>Option 4</option>
+                                      <option>Option 5</option>
+                                      <option>Option 6</option>
+                                    </select>
+                <div class="select__arrow"></div>
+            </div>
+            <div class="select">
+                <p>Beds Type</p>
+                <select style="width: 30%">
+                                          
+                                          <option>Option 1</option>
+                                          <option>Option 2</option>
+                                          <option>Option 3</option>
+                                          <option>Option 4</option>
+                                          <option>Option 5</option>
+                                          <option>Option 6</option>
+                                        </select>
+                <div class="select__arrow"></div>
+            </div>
         </div>
-        <div class="select">
-            <select disabled="disabled">
-              <option>Disabled</option>
-              <option>Option</option>
-              <option>Option</option>
-            </select>
-            <div class="select__arrow"></div>
-        </div>
+
     </div>
-</div>
+
+    <a href="" id="homebutton" class="logIn">Submit</a>
+
+    <body>
+
+</html>
 
 <!-- 
     
