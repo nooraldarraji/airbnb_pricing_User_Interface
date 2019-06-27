@@ -167,7 +167,6 @@ table {
 .main-navigation {
   width: 100%;
   height: 90px;
-  background: #d4d4d4;
   position: fixed;
   top: 0;
 }
@@ -179,7 +178,8 @@ table {
   justify-content: center;
   flex-direction: column;
   margin: 0;
-  border-top: 3px solid #dee2e6;
+  border-top: 3px solid #5cbf2ae6;
+  color: #c79f50;
 }
 .main-navigation .nav-container .logo-heading {
   font-size: 4rem;
@@ -211,7 +211,7 @@ table {
 }
 .main-navigation .nav-container .nav a {
   font-size: 1.6rem;
-  color: #5E6164;
+  color: white;
   text-decoration: none;
 }
 @font-face {
@@ -237,7 +237,6 @@ a {
 #lognav {
   width: 100%;
   height: 90px;
-  background: #d4d4d4;
   /* position: fixed; */
   top: 0;
 }
@@ -283,6 +282,9 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+body {
+  background-image: url(https://blog.tortugabackpacks.com/wp-content/uploads/2017/06/airbnb-alternatives.jpg);
 }
 .select select:hover,
 .select select:focus {
@@ -7942,7 +7944,6 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background-color: #d4d4d4;
 }
 .wrap-login100 {
   width: 560px;
