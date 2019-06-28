@@ -254,6 +254,7 @@ body {
   align-items: center;
 }
 .header-container .header {
+  font-size: 30px;
   height: 50px;
 }
 .section {
