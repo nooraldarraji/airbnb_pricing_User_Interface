@@ -19,3 +19,12 @@ fB.addEventListener('dblclick', function(event) {
         event.target.style.color = "";
     }, 300);
 })
+
+// .main-navigation .nav-container .nav a
+let navbarr = document.querySelector(".main-navigation .nav-container .nav");
+navbarr.addEventListener('mouseover', function(event) {
+    event.target.style.color = '#5cbf2ae6';
+    setTimeout(function() {
+        event.target.style.color = "";
+    }, 300);
+});
