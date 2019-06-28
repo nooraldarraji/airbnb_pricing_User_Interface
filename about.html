@@ -1,167 +1,130 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AirBnb Optimal Pricing</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
-
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+    <link rel="stylesheet" href="./CSS/index.css">
 </head>
 
 <body>
-    <!-- 
+    <script defer="defer" src="/js/dd.js"></script>
+    <script defer="defer" src="/js/tabs.js"></script>
 
-        Albert Wong - TL
-        Connor Heraty - Data Scientist
-        Tommas Fox - Data Scientist
-        Shreyas Jothish - Data Scientist
-        Sam Jeffcoat - Back End Scientist
-        Chris Carter - Front End Developer
-        Kelly Moreira - UI Developer
-        Fnu Bhatri - UI Developer
-        Noor Al Darraji - UI Developer 
-
-        
-    -->
-
-
-
-    <!-- navigation code here -->
-    <div class="container home">
-        <!-- <header class="intro"> -->
-        <header class="main-navigation">
-            <div class="container nav-container">
-                <h1 class="logo-heading">Meet The Team</h1>
-                <nav class="nav">
-                    <a class="nav-link" href="index.html">Home</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link" href="#">Blog</a>
-                    <a class="nav-link" href="about.html">About</a>
-                </nav>
-            </div>
-        </header>
-        <!-- </header> -->
-    </div>
-    <div class="row">
-        <div class="column">
-            <div class="card">
-                <img src="/img/albert.png" alt="Albert" style="width:100%">
-                <div class="container">
-                    <h2>Albert Wong</h2>
-                    <p class="title">Team Leader</p>
-                    <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT</p>
-
-                    <p><button class="button">Contact</button></p>
-                </div>
+    <div class="header-container">
+        <div class="dropdown">
+            <div class="dropdown-button">MENU</div>
+            <div class="dropdown-content dropdown-hidden">
+                <a class="dropdown-link" href="index.html" target="_blank">Home</a>
+                <a class="dropdown-link" href="home.html" target="_blank">Pricing</a>
+                <a class="dropdown-link" href="about.html" target="_blank">About</a>
             </div>
         </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="/img/connor.PNG" alt="Connor" style="width:100%">
-                <div class="container">
-                    <h2>Connor Heraty</h2>
-                    <p class="title">Data Scientist</p>
-                    <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT</p>
-                    <p><button class="button">Contact</button></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="/img/tomas.png" alt="Tommas" style="width:100%">
-                <div class="container">
-                    <h2>Tommas Fox</h2>
-                    <p class="title">Data Scientist</p>
-                    <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT</p>
-
-                    <p><button class="button">Contact</button></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="/img/shreyas.png" alt="Shreyas" style="width:100%">
-                <div class="container">
-                    <h2>Shreyas Jothish</h2>
-                    <p class="title">Data Scientist</p>
-                    <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT</p>
-                    <p><button class="button">Contact</button></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="/img/sam.png" alt="Sam" style="width:100%">
-                <div class="container">
-                    <h2>Sam Jeffcoat</h2>
-                    <p class="title">Back End Developer</p>
-                    <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT</p>
-                    <p><button class="button">Contact</button></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="/img/chris.png" alt="Chris" style="width:100%">
-                <div class="container">
-                    <h2>Chris Carter</h2>
-                    <p class="title">Front End Developer</p>
-                    <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT</p>
-                    <p><button class="button">Contact</button></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="/img/kelly.png" alt="Chris" style="width:100%">
-                <div class="container">
-                    <h2>Kelly Moreira</h2>
-                    <p class="title">UI Developer</p>
-                    <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT</p>
-                    <p><button class="button">Contact</button></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="/img/fnu.png" alt="Fnu" style="width:100%">
-                <div class="container">
-                    <h2>Fnu Bhatri</h2>
-                    <p class="title">UI Developer</p>
-                    <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT</p>
-                    <p><button class="button">Contact</button></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="/img/noor.png" alt="Noor" style="width:100%">
-                <div class="container">
-                    <h2>Noor Al Darraji</h2>
-                    <p class="title">UI Developer</p>
-                    <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT</p>
-                    <p><button class="button">Contact</button></p>
-                </div>
-            </div>
-        </div>
-
+        <p class="header"> Meet The Team</p>
     </div>
 
+    <div class="section">
+        <div class="tabs">
+            <div class="tabs-links">
+                <div class="tabs-link tabs-link-selected" data-tab="1">Albert Wrong</div>
+                <div class="tabs-link" data-tab="2">Tommas Fox</div>
+                <div class="tabs-link" data-tab="3">Connor Heraty</div>
+                <div class="tabs-link" data-tab="4">Shreyas Jothish</div>
+                <div class="tabs-link" data-tab="5">Sam Jeffcoat</div>
+                <div class="tabs-link" data-tab="6">Chris Carter</div>
+                <div class="tabs-link" data-tab="7">Kelly Moreira</div>
+                <div class="tabs-link" data-tab="8">Fnu Bhatri</div>
+                <div class="tabs-link" data-tab="9">Noor Al Darraji</div>
+            </div>
+            <div class="tabs-items">
+                <div class="tabs-item tabs-item-selected" data-tab="1">
+                    <div class="tabs-item-title">Team Leader</div>
+                    <div class="tabs-item-description">
+                        <p class="name">Albert Wrong </p>
+                        <p class="role">Team Leader</p>
+                        <img src="./img/albert.png" alt="" class="pic">
+                        <p class="desc">Project scrum master responsible for facilitating overall team execution.</p>
+                    </div>
+                </div>
+                <div class="tabs-item" data-tab="2">
+                    <div class="tabs-item-title">Tommas Fox</div>
+                    <div class="tabs-item-description">
+                        <p class="name">Tommas Fox</p>
+                        <p class="role">Data Scientest</p>
+                        <img src="./img/tomas.png" alt="" class="pic">
+                        <p class="desc">Responsible for benchmarking our Airbnb predictor app against Tree Ensemble ML models.</p>
+                    </div>
+                </div>
+                <div class="tabs-item" data-tab="3">
+                    <div class="tabs-item-title">Connor Heraty</div>
+                    <div class="tabs-item-description">
+                        <p class="name">Connor Heraty</p>
+                        <p class="role">Data Scientest</p>
+                        <img src="./img/connor.PNG" alt="" class="pic">
+                        <p class="desc">Responsible for benchmarking our Airbnb predictor app against Tree Ensemble ML models.</p>
+                    </div>
+                </div>
+                <div class="tabs-item" data-tab="4">
+                    <div class="tabs-item-title">Shreyas Jothish</div>
+                    <div class="tabs-item-description">
+                        <p class="name">Shreyas Jothish</p>
+                        <p class="role">Data Scientest</p>
+                        <img src="./img/shreyas.png" alt="" class="pic">
+                        <p class="desc">Responsible for benchmarking our Airbnb predictor app against Tree Ensemble ML models.</p>
+                    </div>
+                </div>
+                <div class="tabs-item" data-tab="5">
+                    <div class="tabs-item-title">Sam Jeffcoat</div>
+                    <div class="tabs-item-description">
+                        <p class="name">Sam Jeffcoat</p>
+                        <p class="role">Back End Scientist</p>
+                        <img src="./img/sam.png" alt="" class="pic">
+                        <p class="desc">Created BackEnd API for our AirBnB predictor App using NodeJS/Express.</p>
+                    </div>
+                </div>
+                <div class="tabs-item" data-tab="6">
+                    <div class="tabs-item-title">Chris Carter</div>
+                    <div class="tabs-item-description">
+                        <p class="name">Chris Carter</p>
+                        <p class="role">Front End Developer</p>
+                        <img src="./img/chris.png" alt="" class="pic">
+                        <p class="desc">Responsible for the Front End of the project while partnering with the UI Developers.</p>
+                    </div>
+                </div>
+                <div class="tabs-item" data-tab="7">
+                    <div class="tabs-item-title">Kelly Moreira</div>
+                    <div class="tabs-item-description">
+                        <p class="name">Chris Carter</p>
+                        <p class="role">UI Developer</p>
+                        <img src="./img/kelly.png" alt="" class="pic">
+                        <p class="desc">Responsible for creating the multi-page marketing website and making it responsive to mobile.
+                        </p>
+                    </div>
+                </div>
+                <div class="tabs-item" data-tab="8">
+                    <div class="tabs-item-title">Fnu Bhatri </div>
+                    <div class="tabs-item-description">
+                        <p class="name">Fnu Bhatri </p>
+                        <p class="role">UI Developer</p>
+                        <img src="./img/fnu.png" alt="" class="pic">
+                        <p class="desc">Responsible for creating the multi-page marketing website and making it responsive to mobile.
+                        </p>
+                    </div>
+                </div>
+                <div class="tabs-item" data-tab="9">
+                    <div class="tabs-item-title">Noor Al Darraji</div>
+                    <div class="tabs-item-description">
+                        <p class="name">Noor Al Darraji</p>
+                        <p class="role">UI Developer</p>
+                        <img src="./img/noor.png" alt="" class="pic">
+                        <p class="desc">Responsible for creating the multi-page marketing website and making it responsive to mobile.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
 
 </html>
