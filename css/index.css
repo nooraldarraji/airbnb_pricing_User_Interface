@@ -487,6 +487,17 @@ body {
   margin: 290px;
   padding-left: 120px;
 }
+.rent {
+  color: white;
+  margin-top: 4rem;
+  padding-top: 160px;
+  padding: 20px;
+}
+.rent P {
+  font-size: 25px;
+  padding-top: 150px;
+  color: white;
+}
 @media (max-width: 515px) {
   .searchTerm {
     width: 100%;
@@ -515,6 +526,17 @@ body {
   }
   .logIn {
     display: none;
+  }
+  .rent {
+    color: white;
+    margin-top: 4rem;
+    padding-top: 160px;
+    padding: 20px;
+  }
+  .rent P {
+    font-size: 15px;
+    padding-top: 150px;
+    color: white;
   }
 }
 /*[ FONT SIZE ]
