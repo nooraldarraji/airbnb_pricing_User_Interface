@@ -224,7 +224,31 @@ table {
   .column {
     width: 100%;
     display: block;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
   }
+  .row {
+    margin-top: 20%;
+  }
+  .main-navigation .nav-container {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+    padding-bottom: 50px;
+    border-top: 3px solid #5cbf2ae6;
+    color: #ffbb00;
+  }
+  .main-navigation {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0;
+  }
+  /* justify-content: center; */
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -253,10 +277,17 @@ table {
   width: 100%;
 }
 .button:hover {
-  background-color: #555;
+  background-color: #6fd608;
 }
 .row {
   margin-top: 10%;
+}
+.row h2 {
+  color: #01fa01;
+  padding-top: 10px;
+}
+.column {
+  background-color: #000;
 }
 @font-face {
   font-family: 'Open Sans';
@@ -364,6 +395,11 @@ body {
 #home-boxes {
   padding-top: 100px;
   padding-left: 600px;
+}
+.des p {
+  font-size: 4rem;
+  margin: 290px;
+  padding-left: 120px;
 }
 /*[ FONT SIZE ]
 ///////////////////////////////////////////////////////////
