@@ -1,0 +1,57 @@
+.main-navigation {
+    width: @w;
+    height: 90px;
+    // background: @nb;
+    position: fixed;
+    top: 0;
+  
+    .nav-container {
+
+      height: @w;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0;
+      border-top: 3px solid @mbc;
+      color: #ffbb00;
+
+      .logo-heading {
+        font-size: 4rem;
+        padding-bottom: 10px;
+      }
+    
+      @media @phone {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 10px;
+      }
+  
+      .logo-heading {
+        @media @phone {
+          font-size: 3rem;
+          font-family: @nf;
+        }
+      }
+  
+      .nav {
+        width: 350px;
+        display: flex;
+        justify-content: space-evenly;
+  
+        @media @phone {
+          width: @w;
+          justify-content: space-around;
+        }
+        
+        
+        a {
+          font-size: 1.6rem;
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  } 
+  
